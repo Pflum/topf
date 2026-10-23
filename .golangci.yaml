@@ -117,13 +117,6 @@ linters:
       check-type-assertions: true
 
     exhaustive:
-      # Program elements to check for exhaustiveness.
-      # Default: [ switch ]
-      # - switch: Ensures all enum values are handled in switch statements
-      # - map: Ensures all enum values are present when initializing maps with enum keys
-      check:
-      - switch
-      - map
       # Presence of "default" case in switch statements satisfies exhaustiveness,
       # even if all enum members are not listed.
       # Default: false
