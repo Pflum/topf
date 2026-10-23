@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.6.2] - 2026-10-23
+
+### Bug Fixes
+
+- **upgrade**: Prefer unattendedInstallConfig image ([7aeead7](https://github.com/postfinance/topf/commit/7aeead7545d6a715e719e2e6241027792f7e1a89))
+- **lint**: Use new golangci syntax ([70cdbc8](https://github.com/postfinance/topf/commit/70cdbc83cfbadc023ce4c7c0e3180eedfa577f16))
+
+### Miscellaneous
+
+- Update changelog ([232db62](https://github.com/postfinance/topf/commit/232db62aef7b1e714106edbc62f8bf377f0498ec))
+
+### Build
+
+- **deps**: Bump Talos to 1.14.4 (#177) ([cdc7214](https://github.com/postfinance/topf/commit/cdc721418dbebda0e02de87404b60bb75a5f5420))
 ## [0.6.1] - 2026-09-29
 
 ### Features
